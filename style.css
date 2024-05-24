@@ -5,7 +5,7 @@
 }
 body{
     font-family:'Candara' ;
-    background: linear-gradient(#416280,#2c4357);
+    background: linear-gradient(#4e779e,#233444);
 }
 .contact-container
 {
@@ -43,7 +43,8 @@ body{
     padding-left: 25px;
     font-weight: 500;
     color: #666;
-    border-radius: 50px;
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 .contact-left:textarea{
@@ -52,7 +53,7 @@ body{
     border-radius: 20px;
 }
 .contact-inputs:focus{
-    border: 2px solid #d03b5e;
+    border: 2px solid #a32f4a;
 }
 .contact-inputs::placeholder{
     color: #a9a9a9;
@@ -60,13 +61,14 @@ body{
 .contact-left button{
     display: flex;
     align-items: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 15px 30px;
     font-size: 16px;
     color: #fff;
     gap: 10px;
     border: none;
-    border-radius: 50px;
-    background: linear-gradient(270deg,#fc584e,#d14d6c);
+    border-radius: 40px;
+    background: linear-gradient(270deg,#fd5a52,#d14d6c);
     cursor: pointer;
 }
 .contact-left button img{
